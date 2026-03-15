@@ -1,0 +1,19 @@
+{
+  "name": "windows-auth-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "ua-parser-js": "^1.0.37"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/ua-parser-js": "^0.7.39",
+    "@vercel/node": "^3.0.0",
+    "typescript": "^5.3.3",
+    "vercel": "^33.0.0"
+  }
+}
